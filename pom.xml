@@ -353,15 +353,24 @@ https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java-->
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+<<<<<<< HEAD
           <configuration>
+=======
+		<configuration>
+>>>>>>> 5a0804c932b2d2975947ce10187078d5e48423b4
 			  <suiteXmlFiles>
 				  <suiteXmlFile>
 					  testng.xml
 				  </suiteXmlFile>
+<<<<<<< HEAD
 			  </suiteXmlFiles>
 				  
 		  </configuration>
           
+=======
+			  </suiteXmlFiles>			  
+		  </configuration>
+>>>>>>> 5a0804c932b2d2975947ce10187078d5e48423b4
         </plugin>
         
         <plugin>
