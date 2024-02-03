@@ -4,8 +4,8 @@
   <test  name="Test">
     <classes>
       <class name="amazon_auto1.Amazonmethods"/>
-      <class name="amazon_Auto2.amazonAuto2.java"/>
-      <class name="amazonfullauto.amazonfullauto.java"/>
+      <class name="amazon_Auto2.amazonAuto2"/>
+      <class name="amazonfullauto.amazonfullauto"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
