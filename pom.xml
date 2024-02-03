@@ -344,6 +344,13 @@ https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java-->
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+		<configuration>
+			  <suiteXmlFiles>
+				  <suiteXmlFile>
+					  testng.xml
+				  </suiteXmlFile>
+			  </suiteXmlFiles>			  
+		  </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
