@@ -319,6 +319,15 @@ https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java-->
 <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
+		   <plugin> <!-- used for jenkins-->
+     <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.12.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
          <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -346,11 +355,23 @@ https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java-->
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
           <configuration>
+<<<<<<< HEAD
 			  <suitXmlFiles>
 				  <suitXmlFile>testng.xml</suitXmlFile>
 			  </suitXmlFiles>
 		  </configuration>
+=======
+			  <suiteXmlFiles>
+				  <suiteXmlFile>
+					  testng.xml
+				  </suiteXmlFile>
+			  </suiteXmlFiles>
+				  
+		  </configuration>
+          
+>>>>>>> 95b56556051e7be5309601180078b48dd5037afe
         </plugin>
+        
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
